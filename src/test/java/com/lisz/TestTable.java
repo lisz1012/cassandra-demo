@@ -186,7 +186,7 @@ public class TestTable {
     /**
      * 预编译，server端先缓存带占位符的query，然后返回一个id，随后客户端仅仅把id和values传给服务端
      * 服务端去执行。只缓存一次即可，缓存多次会报错。数据量小不值当的，数据量大的时候会大幅度提升效率，
-     * 所以配合batch使用，减少边际效应😄
+     * 所以配合batch使用，减少边际效应😄😂
      */
     @Test
     public void testBatchPrepare(){
